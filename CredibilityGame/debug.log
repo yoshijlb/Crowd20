@@ -1,0 +1,201 @@
+WARN  [main] 2013-05-29 13:49:54,252 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 11:11:50,068 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 11:11:50,635 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+FATAL [main] 2013-05-30 11:11:51,664 repast.simphony.batch.BatchMain - Fatal error starting repast.simphony simphony.
+repast.simphony.data2.DataException: Error invoking method on object
+	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:92)
+	at repast.simphony.data2.NonAggregateDataSet.record(NonAggregateDataSet.java:78)
+	at repast.simphony.data2.AbstractDataSetManager$ScheduledDataSet.execute(AbstractDataSetManager.java:115)
+	at repast.simphony.data2.BatchRunDataSetManager.runStarted(BatchRunDataSetManager.java:42)
+	at repast.simphony.data2.engine.DataInitActionCreator$1.runInitialize(DataInitActionCreator.java:61)
+	at repast.simphony.engine.controller.DefaultController$3.visit(DefaultController.java:237)
+	at repast.simphony.engine.controller.DefaultController$3.visit(DefaultController.java:1)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:287)
+	at repast.simphony.util.collections.NaryTree.preOrderTraverals(NaryTree.java:290)
+	at repast.simphony.util.collections.NaryTree.preOrderTraversal(NaryTree.java:283)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:235)
+	at repast.simphony.engine.controller.DefaultController.runInitialize(DefaultController.java:379)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:177)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:106)
+	at repast.simphony.batch.BatchMain.run(BatchMain.java:128)
+	at repast.simphony.batch.BatchMain.main(BatchMain.java:256)
+Caused by: java.lang.reflect.InvocationTargetException
+	at CredibilityGame.ProducerStrategyType$$FastClassByCGLIB$$369040f7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.data2.MethodDataSource.get(MethodDataSource.java:90)
+	... 15 more
+Caused by: java.lang.ClassCastException: CredibilityGame.Producer cannot be cast to CredibilityGame.Consumer
+	at CredibilityGame.ProducerStrategyType.getAvgProducerGain(ProducerStrategyType.java:105)
+	... 18 more
+WARN  [main] 2013-05-30 11:12:33,736 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 11:12:33,995 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 11:33:49,677 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 11:33:49,877 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 12:10:50,378 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 12:10:50,602 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 14:30:22,895 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-30 14:30:23,094 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:23:24,832 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:23:25,066 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:26:52,662 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:26:52,835 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:27:51,645 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:27:51,819 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:35:45,946 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:35:46,117 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+ERROR [Thread-1] 2013-05-31 15:35:46,815 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void CredibilityGame.GameController.firstStep()
+java.lang.reflect.InvocationTargetException
+	at CredibilityGame.GameController$$FastClassByCGLIB$$46a9226.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at CredibilityGame.AcceptanceStrategy.getAcceptanceStrategy(AcceptanceStrategy.java:67)
+	at CredibilityGame.AcceptanceStrategy.copyStrategy(AcceptanceStrategy.java:183)
+	at CredibilityGame.Player.stochasticSampling(Player.java:55)
+	at CredibilityGame.Consumer.evolve(Consumer.java:142)
+	at CredibilityGame.GameController.firstStep(GameController.java:27)
+	... 10 more
+ERROR [Thread-2] 2013-05-31 15:35:46,950 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void CredibilityGame.GameController.firstStep()
+java.lang.reflect.InvocationTargetException
+	at CredibilityGame.GameController$$FastClassByCGLIB$$46a9226.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at CredibilityGame.AcceptanceStrategy.getAcceptanceStrategy(AcceptanceStrategy.java:67)
+	at CredibilityGame.AcceptanceStrategy.copyStrategy(AcceptanceStrategy.java:183)
+	at CredibilityGame.Player.stochasticSampling(Player.java:55)
+	at CredibilityGame.Consumer.evolve(Consumer.java:142)
+	at CredibilityGame.GameController.firstStep(GameController.java:27)
+	... 10 more
+WARN  [main] 2013-05-31 15:37:53,862 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:37:54,024 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:47:24,190 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:47:24,354 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+ERROR [main] 2013-05-31 15:47:24,756 repast.simphony.batch.BatchRunner - Error creating parameters and parameter sweeper
+java.io.IOException: Error reading parameter file
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.parse(AbstractXMLSweeperProducer.java:61)
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.getParameters(AbstractXMLSweeperProducer.java:46)
+	at repast.simphony.batch.BatchRunner.setupSweep(BatchRunner.java:141)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:164)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:106)
+	at repast.simphony.batch.BatchMain.run(BatchMain.java:128)
+	at repast.simphony.batch.BatchMain.main(BatchMain.java:256)
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at repast.simphony.parameter.xml.ParameterSweepParser.parse(ParameterSweepParser.java:104)
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.parse(AbstractXMLSweeperProducer.java:53)
+	... 6 more
+WARN  [main] 2013-05-31 15:48:12,267 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:48:12,441 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+ERROR [main] 2013-05-31 15:48:12,809 repast.simphony.batch.BatchRunner - Error creating parameters and parameter sweeper
+java.io.IOException: Error reading parameter file
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.parse(AbstractXMLSweeperProducer.java:61)
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.getParameters(AbstractXMLSweeperProducer.java:46)
+	at repast.simphony.batch.BatchRunner.setupSweep(BatchRunner.java:141)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:164)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:106)
+	at repast.simphony.batch.BatchMain.run(BatchMain.java:128)
+	at repast.simphony.batch.BatchMain.main(BatchMain.java:256)
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at repast.simphony.parameter.xml.ParameterSweepParser.parse(ParameterSweepParser.java:104)
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.parse(AbstractXMLSweeperProducer.java:53)
+	... 6 more
+WARN  [main] 2013-05-31 15:48:36,103 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:48:36,269 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+ERROR [main] 2013-05-31 15:48:36,654 repast.simphony.batch.BatchRunner - Error creating parameters and parameter sweeper
+java.io.IOException: Error reading parameter file
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.parse(AbstractXMLSweeperProducer.java:61)
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.getParameters(AbstractXMLSweeperProducer.java:46)
+	at repast.simphony.batch.BatchRunner.setupSweep(BatchRunner.java:141)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:164)
+	at repast.simphony.batch.BatchRunner.run(BatchRunner.java:106)
+	at repast.simphony.batch.BatchMain.run(BatchMain.java:128)
+	at repast.simphony.batch.BatchMain.main(BatchMain.java:256)
+Caused by: org.xml.sax.SAXParseException: The processing instruction target matching "[xX][mM][lL]" is not allowed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanPIData(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanPI(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at javax.xml.parsers.SAXParser.parse(Unknown Source)
+	at repast.simphony.parameter.xml.ParameterSweepParser.parse(ParameterSweepParser.java:104)
+	at repast.simphony.parameter.xml.AbstractXMLSweeperProducer.parse(AbstractXMLSweeperProducer.java:53)
+	... 6 more
+WARN  [main] 2013-05-31 15:49:22,892 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:49:23,078 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:50:04,315 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-05-31 15:50:04,488 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-06-01 10:17:27,579 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-06-01 10:17:28,052 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-06-16 19:44:52,889 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-06-16 19:44:53,326 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-06 13:21:02,590 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-06 13:21:02,809 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-06 21:15:05,886 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-06 21:15:06,339 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-18 10:34:01,956 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-18 10:34:02,354 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-18 10:36:22,141 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-18 10:36:22,322 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-18 10:42:08,754 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [main] 2013-07-18 10:42:08,923 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'D:\studia\PhD\PhD_Reconcile\workspace-repast2.0\CredibilityGame\lib'.
+WARN  [AWT-EventQueue-0] 2017-03-17 09:15:00,476 repast.simphony.scenario.ScenarioCPInitializer - Warning while parsing classpath: Empty or non-existent path 'C:\Users\yoshi\Downloads\CredibilityGame\CredibilityGame\lib'.
+WARN  [AWT-EventQueue-0] 2017-03-17 09:15:00,583 repast.simphony.scenario.ScenarioLoader - While initializing classpath: Empty or non-existent path 'C:\Users\yoshi\Downloads\CredibilityGame\CredibilityGame\lib'.

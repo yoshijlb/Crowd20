@@ -1,0 +1,51 @@
+<repast.simphony.data2.engine.FileSinkDescriptor>
+  <name>Producer Strategy Type Outputter</name>
+  <dataSet>Producer Strategy Type Dataset</dataSet>
+  <delimiter>;</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>run</string>
+    <string>CurrentGeneration</string>
+    <string>CurrentIteration</string>
+    <string>toString</string>
+    <string>TruthfulnessWeight</string>
+    <string>LookWeight</string>
+    <string>ProducerTypeHigh</string>
+    <string>ProducerTypeLow</string>
+    <string>Gain</string>
+    <string>ProducedBy</string>
+    <string>HonestRate</string>
+    <string>RatedBy</string>
+    <string>AcceptanceRate</string>
+    <string>RatedByExperts</string>
+    <string>AverageExpertSignalThreshold</string>
+    <string>AcceptedByRange1</string>
+    <string>AcceptedByRange2</string>
+    <string>AcceptedByRange3</string>
+    <string>AcceptedByRange4</string>
+    <string>AcceptedByRange5</string>
+    <string>ConsumerTypeHigh</string>
+    <string>ConsumerTypeLow</string>
+    <string>RatedByRange1</string>
+    <string>RatedByRange2</string>
+    <string>RatedByRange3</string>
+    <string>RatedByRange4</string>
+    <string>RatedByRange5</string>
+    <string>AverageReputationThreshold</string>
+    <string>AverageRating</string>
+    <string>AverageSignalThreshold</string>
+    <string>AverageSignal</string>
+    <string>AcceptedBy</string>
+    <string>AcceptedBySignal</string>
+    <string>AcceptedByReputation</string>
+    <string>AvgConsumerGain</string>
+    <string>AvgProducerGain</string>
+    <string>AcceptanceBySignalStrategy</string>
+    <string>AcceptanceByReputationStrategy</string>
+    <string>AcceptanceByReputationAndSignalStrategy</string>
+    <string>AcceptanceByReputationOrSignalStrategy</string>
+    <string>AverageNonExpertSignalThreshold</string>
+  </sourceIds>
+  <fileName>Producer Strategy Type Outputter.csv</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
